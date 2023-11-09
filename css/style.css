@@ -1,0 +1,32 @@
+@font-face {
+    font-family: initialcaps;
+    src: url(/media/initialcaps.ttf);
+}
+
+@font-face {
+    font-family: titlefont;
+    src: url(/media/bibelschrift.ttf);
+}
+
+@font-face {
+    font-family: bodyfont;
+    src: url(/media/holybible.ttf);
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-family: titlefont;
+}
+
+p{
+    font-family: bodyfont;
+}
+
+iframe{
+    height: 80vh;
+    width: 80vw;
+}
