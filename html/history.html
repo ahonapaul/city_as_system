@@ -6,24 +6,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="history">
-    <div class="tooltip">        
-        <img src="/media/church_old.jpeg">
-        <span class="text1"></span>
+<body>
+    <div class="container">
+        <div class="tooltip">        
+            <img id="photo1" src="/media/church_old.jpeg">
+            <span class="text"></span>
+        </div>
+        <div class="tooltip">        
+            <img id="photo2" src="/media/church_postcard.jpeg">
+            <span class="text"></span>
+        </div>
+        <div class="tooltip">        
+            <img id="photo3" src="/media/church_drawing.jpeg">
+            <span class="text"></span>
+        </div>
+        <div class="info">
+            <h2 class="history_start"></h2>
+            <p class="history_text"></p>
+        </div>
     </div>
-    <div class="tooltip">        
-        <img src="/media/church_postcard.jpeg">
-        <span class="text2"></span>
-    </div>
-    <div class="tooltip">        
-        <img src="/media/church_drawing.jpeg">
-        <span class="text3"></span>
-    </div>
-    <div class="info">
-        <h2 class="history_start"></h2>
-        <p class="history_text"></p>
-    </div>
-    
+    <button class="firebutton" onclick="fire('.tooltip', '.info')">FIRE</button>
+    <button class="newbutton" onclick="openPage('..html/rebuild.html')">rebuild</button>
+
     <script src="/js/script.js"></script>
     <script src="/js/object.js"></script>
 </body>

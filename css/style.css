@@ -18,7 +18,7 @@ body{
     color: white;
 }
 
-h1{
+h1, button{
     font-family: titlefont;
 }
 
@@ -39,32 +39,61 @@ iframe{
     width: 90vw;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
 .tooltip{
     position: relative;
     display: inline-block;
 }
 
-.tooltip .text1{
+.tooltip .text{
     visibility: hidden;
-    background-color: grey;
-    color: #fff;
+    background-color: gray;
+    color: white;
     height: 30px;
     width: 80px;
     text-align: center;
+    margin-left: -10vw;
     position: absolute;
-    margin-left: -20vw;
     z-index: 1;
 }
 
-.history{
-    display: flex;
-    justify-content: space-around;
-}
-
-.tooltip:hover .text1{
+.tooltip:hover .text{
     visibility: visible;
 }
 
 .info{
     display: flex;
+    margin-left: -20vw;
+}
+
+#photo1{
+    height: 250px;
+    margin: 20vh 10px 10px;
+}
+
+#photo2{
+    height: 300px;
+    margin: 0 10px 10px;
+}
+
+#photo3{
+    width: 300px;
+    margin: 35vh 10px 10px;
+}
+
+.firebutton{
+    color: red;
+    background-color: antiquewhite;
+    font-size: 50px;
+}
+
+.newbutton{
+    color: red;
+    background-color: black;
+    font-size: 50px;
+    visibility: hidden;
 }

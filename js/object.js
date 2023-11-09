@@ -12,7 +12,7 @@ let info = {
     streets : ["Bushwick Ave", "Cornelia Street", "Putnam Avenue"]
 }
 
-document.querySelector(".text1").innerHTML = info.dates[0];
+document.querySelector(".text").innerHTML = info.dates[0];
 
 document.querySelector(".history_start").innerHTML = info.historyStart;
 
