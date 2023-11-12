@@ -7,7 +7,7 @@ let info = {
     presentText : "",
     dates : [1896, 1968, 1997, 2013, 2020, 2023],
     peopleNames : ["Fowler and Hough", "Rev Charles Nesbitt", "Rev Owen L. Loftman", "Bryan E. Kelly"],
-    churchNames : ["Bushwick Avenue Congretational Church", "Bethesda Baptist Church", "Grace Restoration Temple"],
+    churchNames : ["Bushwick Avenue Congretational Church", "Bethesda Baptist Church", "Restoration Worship Temple"],
     buildings : [1162, 1170],
     streets : ["Bushwick Ave", "Cornelia Street", "Putnam Avenue"]
 }
@@ -17,3 +17,11 @@ document.querySelector(".text").innerHTML = info.dates[0];
 document.querySelector(".history_start").innerHTML = info.historyStart;
 
 document.querySelector(".history_text").innerHTML = info.historyText;
+
+document.querySelector(".rebuild_start").innerHTML = info.rebuildStart;
+
+document.querySelector(".rebuild_text").innerHTML = info.rebuildText;
+
+document.querySelector(".present_start").innerHTML = info.presentStart;
+
+document.querySelector(".present_text").innerHTML = info.presentText;

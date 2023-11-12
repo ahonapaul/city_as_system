@@ -14,8 +14,8 @@
 }
 
 body{
-    background-color: black;
-    color: white;
+    background-color: antiquewhite;
+    color: maroon;
 }
 
 h1, button{
@@ -89,6 +89,9 @@ iframe{
     color: red;
     background-color: antiquewhite;
     font-size: 50px;
+    width: 20vw;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 .newbutton{
@@ -96,4 +99,48 @@ iframe{
     background-color: black;
     font-size: 50px;
     visibility: hidden;
+    width: 20vw;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+}
+
+.portraits{
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin: 5vw;
+}
+
+.container2 img{
+    height: 200px;
+    margin: 20px;
+}
+
+.outer{
+    cursor: pointer;
+}
+
+.inside{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.more{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.problem{
+    visibility: hidden;
+    margin-left: 15vw;
+    cursor: pointer;
 }

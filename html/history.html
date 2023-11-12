@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="tooltip">        
-            <img id="photo1" src="/media/church_old.jpeg">
+            <img id="photo1" src="../media/church_old.jpeg">
             <span class="text"></span>
         </div>
         <div class="tooltip">        
-            <img id="photo2" src="/media/church_postcard.jpeg">
+            <img id="photo2" src="../media/church_postcard.jpeg">
             <span class="text"></span>
         </div>
         <div class="tooltip">        
-            <img id="photo3" src="/media/church_drawing.jpeg">
+            <img id="photo3" src="../media/church_drawing.jpeg">
             <span class="text"></span>
         </div>
         <div class="info">
@@ -25,10 +25,19 @@
             <p class="history_text"></p>
         </div>
     </div>
-    <button class="firebutton" onclick="fire('.tooltip', '.info')">FIRE</button>
-    <button class="newbutton" onclick="openPage('..html/rebuild.html')">rebuild</button>
 
-    <script src="/js/script.js"></script>
-    <script src="/js/object.js"></script>
+    <div class="buttons">
+        <button class="firebutton" onclick="fire('.tooltip', '.info')">FIRE</button>
+        <button class="newbutton" onclick="openPage('../html/rebuild.html')">rebuild</button>
+    </div>
+
+    <div class="portraits">
+        <img src="../media/signature.png">
+        <img src="../media/">
+        <img src="../media/">
+    </div>
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/object.js"></script>
 </body>
 </html>
