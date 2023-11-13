@@ -1,16 +1,16 @@
 @font-face {
     font-family: initialcaps;
-    src: url(/media/initialcaps.ttf);
+    src: url(../media/initialcaps.ttf);
 }
 
 @font-face {
     font-family: titlefont;
-    src: url(/media/bibelschrift.ttf);
+    src: url(../media/bibelschrift.ttf);
 }
 
 @font-face {
     font-family: bodyfont;
-    src: url(/media/holybible.ttf);
+    src: url(../media/holybible.ttf);
 }
 
 body{
