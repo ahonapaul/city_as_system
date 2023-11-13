@@ -144,3 +144,46 @@ iframe{
     margin-left: 15vw;
     cursor: pointer;
 }
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5vw;
+}
+
+.maps{
+    display: flex;
+}
+
+#tab{
+    height: 100px;
+    z-index: 2;
+}
+
+#tabzoom{
+    height: 100px;
+    margin-left: -7vw;
+    margin-top: 5vh;
+    z-index: 3;
+}
+
+#church{
+    height: 400px;
+    margin-left: -15vw;
+    margin-top: 7vh;
+    z-index: 1;
+}
+
+#yelp{
+    height: 200px;
+    width: max-content;
+    margin: 5vh;
+    align-self: center;
+}
+
+#govpage{
+    height: 200px;
+    width: max-content;
+    align-self: flex-end;
+}
